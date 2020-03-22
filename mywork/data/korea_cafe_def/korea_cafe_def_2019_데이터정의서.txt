@@ -1,0 +1,52 @@
+<데이터 출처>
+    - ../Data_Store/Processed_data/korea_shp_dist_2019.csv
+
+<데이터 사이즈>
+    - (96104, 20)
+
+<데이터 메타정보>
+    Data columns (total 20 columns):
+    상호명         96104 non-null object
+    상권업종대분류명    96104 non-null object
+    상권업종중분류명    96104 non-null object
+    상권업종소분류명    96104 non-null object
+    표준산업분류명     96104 non-null object
+    시도명         96104 non-null object
+    시군구명        96104 non-null object
+    행정동명        96104 non-null object
+    법정동명        96104 non-null object
+    대지구분명       96104 non-null object
+    지번본번지       96104 non-null int64
+    지번부번지       75125 non-null float64
+    지번주소        96104 non-null object
+    도로명코드       96104 non-null int64
+    도로명         96104 non-null object
+    건물본번지       96104 non-null int64
+    건물부번지       17752 non-null float64
+    도로명주소       96104 non-null object
+    경도          96104 non-null float64
+    위도          96104 non-null float64
+    dtypes: float64(4), int64(3), object(13)
+
+<결측치 데이터정보>
+    상호명             0
+    상권업종대분류명        0
+    상권업종중분류명        0
+    상권업종소분류명        0
+    표준산업분류명         0
+    시도명             0
+    시군구명            0
+    행정동명            0
+    법정동명            0
+    대지구분명           0
+    지번본번지           0
+    지번부번지       20979
+    지번주소            0
+    도로명코드           0
+    도로명             0
+    건물본번지           0
+    건물부번지       78352
+    도로명주소           0
+    경도              0
+    위도              0
+    dtype: int64

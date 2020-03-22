@@ -1,0 +1,47 @@
+txt utf-8로 저장하기
+
+1. 데이터 출처를 밝혀주세요
+    - 부산시 구군별 면적 및 인구정보 http://data.busan.go.kr/index.nm?contentId=67#
+
+
+2. print(df.info() , df.shape)
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 17 entries, 0 to 16
+Data columns (total 13 columns):
+Unnamed: 0            17 non-null object
+2016년 카페수             17 non-null int64
+2017년 카페수             17 non-null int64
+2018년 카페수             17 non-null int64
+2019년 카페수             17 non-null int64
+2016인구당카페수(ea/명)      17 non-null float64
+2017인구당카페수(ea/명)      17 non-null float64
+2018인구당카페수(ea/명)      17 non-null float64
+2019인구당카페수(ea/명)      17 non-null float64
+2016카페당관할인구수(명/ea)    17 non-null float64
+2017카페당관할인구수(명/ea)    17 non-null float64
+2018카페당관할인구수(명/ea)    17 non-null float64
+2019카페당관할인구수(명/ea)    17 non-null float64
+dtypes: float64(8), int64(4), object(1)
+memory usage: 1.9+ KB
+None (17, 13)
+
+
+
+4. 데이터 결측치 정보를 명시해주세요
+missing = df.shape[0] - df.count()
+print(missing)
+
+2016년 카페수             0
+2017년 카페수             0
+2018년 카페수             0
+2019년 카페수             0
+2016인구당카페수(ea/명)      0
+2017인구당카페수(ea/명)      0
+2018인구당카페수(ea/명)      0
+2019인구당카페수(ea/명)      0
+2016카페당관할인구수(명/ea)    0
+2017카페당관할인구수(명/ea)    0
+2018카페당관할인구수(명/ea)    0
+2019카페당관할인구수(명/ea)    0
+dtype: int64

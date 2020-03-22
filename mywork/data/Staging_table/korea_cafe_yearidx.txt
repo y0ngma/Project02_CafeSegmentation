@@ -1,0 +1,33 @@
+출처
+korea_pop = pd.read_csv('./data/Cleansed_data/korea_cafe_per_pop_all.csv', encoding = 'utf-8')
+korea_land = pd.read_csv('./data/Processed_data/korea_land.csv', encoding = 'utf-8')
+korea_cafe = pd.read_csv('./Data/Processed_data/korea_shp_dist_def.csv', encoding = 'utf-8')
+
+
+
+<class 'pandas.core.frame.DataFrame'>
+MultiIndex: 68 entries, (강원, 2016) to (충북, 2019)
+Data columns (total 8 columns):
+면적                68 non-null float64
+면적당카페수(ea/㎢)      68 non-null float64
+시도별카페수(ea)        68 non-null int64
+인구당카페수(ea/명)      68 non-null float64
+총카페수(ea)          68 non-null int64
+총카페에대한구성비(%)      68 non-null float64
+카페당관할인구수(명/ea)    68 non-null float64
+전년도대비카페증감율(%)     68 non-null float64
+dtypes: float64(6), int64(2)
+memory usage: 7.2+ KB
+None (68, 8)
+
+
+
+면적                0
+면적당카페수(ea/㎢)      0
+시도별카페수(ea)        0
+인구당카페수(ea/명)      0
+총카페수(ea)          0
+총카페에대한구성비(%)      0
+카페당관할인구수(명/ea)    0
+전년도대비카페증감율(%)     0
+dtype: int64
