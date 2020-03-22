@@ -1,0 +1,32 @@
+﻿
+0.
+-> 행정구역별 국토면적 / 단위(제곱킬로미터) 
+
+1. 데이터 출처를 밝혀 주세요
+-> 
+ http://www.index.go.kr/potal/main/EachDtlPageDetail.do?idx_cd=2728#quick_02;
+ ../Data_Store/Processed_data/korea_shp_dist_2019.csv
+
+2. 데이터 사이즈를 명시해주세요
+-> 
+(17, 4)
+
+3. 데이터 메타정보를 명시해주세요
+-> 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 17 entries, 0 to 16
+Data columns (total 4 columns):
+지역          17 non-null object
+2018(면적)    17 non-null float64
+카페수         17 non-null int64
+면적대비 카페수    17 non-null float64
+dtypes: float64(2), int64(1), object(1)
+memory usage: 672.0+ bytes
+
+4. 데이터 결측치 정보를 명시해주세요
+-> 
+지역          0
+2018(면적)    0
+카페수         0
+면적대비 카페수    0
+dtype: int64

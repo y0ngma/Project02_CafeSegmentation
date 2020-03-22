@@ -1,0 +1,29 @@
+﻿1. 데이터 출처 
+-> https://unipass.customs.go.kr/ets/index.do 수출입무역통계
+
+2. 데이터 사이즈 
+-> (20, 6)
+
+3. 데이터 메타정보: 
+-> 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20 entries, 0 to 19
+Data columns (total 6 columns):
+기간      20 non-null int64
+품목명     20 non-null object
+수출중량    20 non-null object
+수입중량    20 non-null object
+수출금액    20 non-null object
+수입금액    20 non-null object
+dtypes: int64(1), object(5)
+memory usage: 1.1+ KB
+
+4. 데이터 결측치 정보
+->   
+기간      0
+품목명     0
+수출중량    0
+수입중량    0
+수출금액    0
+수입금액    0
+dtype: int64

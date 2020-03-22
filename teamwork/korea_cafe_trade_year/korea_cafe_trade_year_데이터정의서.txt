@@ -1,0 +1,29 @@
+﻿<데이터 출처>
+   - mini_project2/korea_cafe_trade_year.csv
+
+<데이터 사이즈>
+   - (4, 7)
+
+<데이터 메타정보>
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4 entries, 0 to 3
+Data columns (total 7 columns):
+년도      4 non-null int64
+카페수     4 non-null int64
+품목명     4 non-null object
+수출중량    4 non-null object
+수입중량    4 non-null object
+수출금액    4 non-null object
+수입금액    4 non-null object
+dtypes: int64(2), object(5)
+memory usage: 256.0+ bytes
+
+<결측치 데이터정보>
+년도      0
+카페수     0
+품목명     0
+수출중량    0
+수입중량    0
+수출금액    0
+수입금액    0
+dtype: int64

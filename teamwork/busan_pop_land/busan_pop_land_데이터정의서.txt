@@ -1,0 +1,42 @@
+
+
+1. 데이터 출처를 밝혀주세요
+    - 부산시 구군별 면적 및 인구정보 http://data.busan.go.kr/index.nm?contentId=67#
+
+
+2. print(df.info() , df.shape)
+    <class 'pandas.core.frame.DataFrame'>
+    RangeIndex: 17 entries, 1 to 17
+    Data columns (total 9 columns):
+    구  분                 17 non-null object
+    읍·면·
+    동 수             17 non-null float64
+    세   대                17 non-null float64
+    인   구(명)             17 non-null object
+    Unnamed: 4           17 non-null object
+    Unnamed: 5           17 non-null object
+    시전체
+    인구에 대한
+    구성비(%)    17 non-null float64
+    면적
+    (㎢)               17 non-null float64
+    인구밀도
+    (명/㎢)           17 non-null float64
+    dtypes: float64(5), object(4)
+    memory usage: 1.3+ KB
+    (17, 9)
+
+
+4. 데이터 결측치 정보를 명시해주세요
+missing = df.shape[0] - df.count()
+print(missing)
+    구  분                   0
+    읍·면·\n동 수              0
+    세   대                  0
+    인   구(명)               0
+    Unnamed: 4             0
+    Unnamed: 5             0
+    시전체\n인구에 대한\n구성비(%)    0
+    면적\n(㎢)                0
+    인구밀도\n(명/㎢)            0
+    dtype: int64

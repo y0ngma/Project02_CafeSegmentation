@@ -1,0 +1,27 @@
+﻿<데이터 출처>
+   - mini_project2/korea_cafe_top10_year.csv
+
+<데이터 사이즈>
+    - (10, 6)
+
+<데이터 메타정보>
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10 entries, 0 to 9
+Data columns (total 6 columns):
+순위      10 non-null object
+카페명     10 non-null object
+2016    10 non-null object
+2017    10 non-null object
+2018    10 non-null object
+2019    10 non-null object
+dtypes: object(6)
+memory usage: 608.0+ bytes
+
+<결측치 데이터정보>
+순위      0
+카페명     0
+2016    0
+2017    0
+2018    0
+2019    0
+dtype: int64

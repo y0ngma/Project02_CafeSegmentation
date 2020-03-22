@@ -1,0 +1,57 @@
+﻿<데이터 출처>
+    - mini_project2/def_concat.csv
+
+<데이터 사이즈>
+    - (317806, 21)
+
+<데이터 메타정보>
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 317806 entries, 0 to 96103
+Data columns (total 21 columns):
+상호명         317806 non-null object
+상권업종대분류명    317806 non-null object
+상권업종중분류명    317806 non-null object
+상권업종소분류명    317806 non-null object
+표준산업분류명     317348 non-null object
+시도명         317806 non-null object
+시군구명        317806 non-null object
+행정동명        317806 non-null object
+법정동명        317806 non-null object
+대지구분명       317806 non-null object
+지번본번지       317806 non-null int64
+지번부번지       249197 non-null float64
+지번주소        317806 non-null object
+도로명코드       317806 non-null float64
+도로명         317806 non-null object
+건물본번지       317806 non-null int64
+건물부번지       58927 non-null float64
+도로명주소       317806 non-null object
+경도          317806 non-null float64
+위도          317806 non-null float64
+year        317806 non-null int64
+dtypes: float64(5), int64(3), object(13)
+memory usage: 53.3+ MB
+
+<결측치 데이터정보>
+상호명              0
+상권업종대분류명         0
+상권업종중분류명         0
+상권업종소분류명         0
+표준산업분류명        458
+시도명              0
+시군구명             0
+행정동명             0
+법정동명             0
+대지구분명            0
+지번본번지            0
+지번부번지        68609
+지번주소             0
+도로명코드            0
+도로명              0
+건물본번지            0
+건물부번지       258879
+도로명주소            0
+경도               0
+위도               0
+year             0
+dtype: int64

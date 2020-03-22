@@ -1,0 +1,82 @@
+﻿korea_pop.csv
+1. 데이터 출처를 밝혀 주세요
+-> 
+http://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040A3&vw_cd=MT_ZTITLE&list_id=A6&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE
+2. 데이터 사이즈를 명시해주세요
+->
+(19, 31)
+
+3. 데이터 메타정보를 명시해주세요
+->
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 19 entries, 0 to 18
+Data columns (total 31 columns):
+행정구역(시군구)별    19 non-null object
+2010(총인구)     19 non-null object
+2010(남자인구)    19 non-null object
+2010(여자인구)    19 non-null object
+2011(총인구)     19 non-null object
+2011(남자인구)    19 non-null object
+2011(여자인구)    19 non-null object
+2012(총인구)     19 non-null object
+2012(남자인구)    19 non-null object
+2012(여자인구)    19 non-null object
+2013(총인구)     19 non-null object
+2013(남자인구)    19 non-null object
+2013(여자인구)    19 non-null object
+2014(총인구)     19 non-null object
+2014(남자인구)    19 non-null object
+2014(여자인구)    19 non-null object
+2015(총인구)     19 non-null object
+2015(남자인구)    19 non-null object
+2015(여자인구)    19 non-null object
+2016(총인구)     19 non-null object
+2016(남자인구)    19 non-null object
+2016(여자인구)    19 non-null object
+2017(총인구)     19 non-null object
+2017(남자인구)    19 non-null object
+2017(여자인구)    19 non-null object
+2018(총인구)     19 non-null object
+2018(남자인구)    19 non-null object
+2018(여자인구)    19 non-null object
+2019(총인구)     19 non-null object
+2019(남자인구)    19 non-null object
+2019(여자인구)    19 non-null object
+dtypes: object(31)
+memory usage: 4.7+ KB
+
+4. 데이터 결측치 정보를 명시해주세요
+->
+행정구역(시군구)별    0
+2010(총인구)     0
+2010(남자인구)    0
+2010(여자인구)    0
+2011(총인구)     0
+2011(남자인구)    0
+2011(여자인구)    0
+2012(총인구)     0
+2012(남자인구)    0
+2012(여자인구)    0
+2013(총인구)     0
+2013(남자인구)    0
+2013(여자인구)    0
+2014(총인구)     0
+2014(남자인구)    0
+2014(여자인구)    0
+2015(총인구)     0
+2015(남자인구)    0
+2015(여자인구)    0
+2016(총인구)     0
+2016(남자인구)    0
+2016(여자인구)    0
+2017(총인구)     0
+2017(남자인구)    0
+2017(여자인구)    0
+2018(총인구)     0
+2018(남자인구)    0
+2018(여자인구)    0
+2019(총인구)     0
+2019(남자인구)    0
+2019(여자인구)    0
+dtype: int64
+​
